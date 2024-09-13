@@ -6,7 +6,6 @@ import bridge from '@vkontakte/vk-bridge';
 export const Home = ({ id, fetchedUser }) => {
   const { photo_200, city, first_name, last_name } = { ...fetchedUser };
   // const routeNavigator = useRouteNavigator();
-
   async function openStoryEditor() {
     const imageUrl = (await (await fetch("https://dog.ceo/api/breeds/image/random")).json()).message;
 
