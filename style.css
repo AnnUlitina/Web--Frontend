@@ -1,0 +1,166 @@
+/* Основные стили для сайта */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #b9c3b9;
+    /*background-image: url("pictures/свитера.png");*/
+    color: #192216;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #1d3a19;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    color: #415a37;
+    margin-left: 0; /* Отступ слева для смещения заголовка вправо */
+}
+
+main {
+    margin: 20px;
+}
+
+.promo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+    margin-bottom: 40px;
+}
+
+/* Текстовая часть */
+.promo-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.promo-text p {
+    font-size: 1.2em;
+    color: #5e5e5e;
+}
+
+.look-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.promo-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.promo-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+/* Отступ между статьями */
+article {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+blockquote {
+    border: 2px solid #3c4a38;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #b9c3b9;
+    font-style: italic;
+    color: #121910;
+}
+
+blockquote footer {
+    margin-top: 10px;
+    text-align: center;
+    color: #5e7a57;
+}
+
+pre {
+    background-color: #879f87;
+    padding: 15px;
+    border: 1px solid #a0b69a;
+}
+
+.ascii-art {
+    font-family: 'Courier New', Courier, monospace; /* Моноширинный шрифт */
+    text-align: center; /* Центрирование */
+    white-space: pre; /* Сохранение пробелов и переносов */
+    margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+.ascii-art pre {
+    font-family: "Courier New", Courier, monospace; /* Моноширинный шрифт */
+    font-size: 16px; /* Размер шрифта для лучшей читаемости */
+    line-height: 1; /* Интервал между строками */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем внутренние отступы */
+    /*display: inline-block; !* Для центрирования текста внутри контейнера *!*/
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #ddd;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
